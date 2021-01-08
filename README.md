@@ -23,5 +23,5 @@ Moreover, we have defined a new function to randomly generate cell-generated loc
 **make ECM-multi**: populates a project for cluster growth.
 
 ## Documentation
-For general information on PhysiCell, look at QuickStart.pdf and UserGuide.pdf in the documentation/PhysiCell folder.
-For more information on the data analysis procedures used to study the effect of collagen density on cell motility and cluster growth, see the Jupyter Notebooks in the documentation/data_analysis folder.
+- For general information on PhysiCell, look at QuickStart.pdf and UserGuide.pdf in the documentation/PhysiCell folder.
+- For more information on the data analysis procedures used to study the effect of collagen density on cell motility and cluster growth, see the Jupyter Notebooks in the documentation/data_analysis folder.
