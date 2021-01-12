@@ -75,6 +75,13 @@ The initial part of this code can be disregarded for a uniform distribution of c
 
 - Continuum function to relate collagen density and dynamic viscosity values
 
+Now we can assign this new update velocity function to our default cell type.
+
+```c++
+cell_defaults.functions.update_velocity = drag_update_cell_velocity;
+
+```
+
 ## References
 
 Valero, Clara, et al. "Combined experimental and computational characterization of crosslinked collagen-based hydrogels." PLoS One 13.4 (2018): e0195820.
