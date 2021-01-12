@@ -124,7 +124,7 @@ void create_cell_types( void )
 	cell_defaults.phenotype.motility.persistence_time =
 		parameters.doubles( "cell_persistence_time" );
 
-	double initial_velocity = skewed_distribution();
+	double initial_velocity = locomotive_forces_generator();
 	cell_defaults.phenotype.motility.migration_speed = initial_velocity;
 
 	// mechanics parameters

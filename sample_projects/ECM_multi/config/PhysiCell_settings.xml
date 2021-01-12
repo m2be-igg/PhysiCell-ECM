@@ -156,9 +156,10 @@
 	</microenvironment_setup>
 
 	<user_parameters>
-		<!-- example parameters from the template -->
+		<cell_cell_adhesion type="double" units="min">7.2</cell_cell_adhesion>
+		<cell_cell_repulsion type="double" units="min">380.0</cell_cell_repulsion>
 		<cell_persistence_time type="double" units="min">20</cell_persistence_time>
-
+		<cell_rel_max_adhesion_distance type="double" units="min">1.25</cell_rel_max_adhesion_distance>
 	</user_parameters>
 
 
