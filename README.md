@@ -4,6 +4,8 @@
 
 ## Overview
 
+You can access the full paper [here](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008764).
+
 This extension aims to implement the effect of the mechanical properties of the extracellular matrix (ECM) into the PhysiCell framework [1]. To do so, we have extended the PhysiCell code to take into account the viscosity of the ECM on individual cell migration.
 
 We have used previously published experimental data [2], obtained for collagen matrices of different collagen densities, to characterize the effect of matrix density on both single cell motility and its subsequent effect The mechanical properties of the extracellular matrix for the collagen matrices used experimentally have also been characterized previously [3].
@@ -28,3 +30,7 @@ Moreover, we have defined a new function to randomly generate cell-generated loc
 
 - For general information on PhysiCell, look at QuickStart.pdf and UserGuide.pdf in the documentation/PhysiCell folder.
 - For more information on the data analysis procedures used to study the effect of collagen density on cell motility and cluster growth, see the Jupyter Notebooks in the documentation/data_analysis folder.
+
+## Citing us
+
+> Gonçalves, Inês G., and Jose Manuel Garcia-Aznar. "Extracellular matrix density regulates the formation of tumour spheroids through cell migration." PLoS computational biology 17.2 (2021): e1008764.
